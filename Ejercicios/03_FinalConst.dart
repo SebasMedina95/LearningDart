@@ -53,6 +53,9 @@ main() {
   print("___________________________");
   print("___________________________");
 
-  double x = 10.32;
+  final double? x = 0;
+  late final double y; //late quiere decir "Después lo vamos a inicializar"
+  y = 3.9;
   print(x);
+  print(y);
 }
